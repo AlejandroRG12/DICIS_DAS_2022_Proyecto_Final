@@ -22,3 +22,4 @@ connection.getConnection(
 
 connection.query = promisify(connection.query);
 module.exports = connection;
+
